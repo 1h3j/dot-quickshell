@@ -6,13 +6,13 @@ import "../../modules"
 
 Item { id: root
   Row {
-    spacing: 4
+    spacing: 8
     Repeater {
       model: Hyprland.workspaces
       delegate: Rectangle {
         required property var modelData
-        implicitWidth: modelData.active ? 32 : 16
-        implicitHeight: 16
+        implicitWidth: modelData.active ? 48 : 16
+        implicitHeight: 8
         radius: 8
 
         color: modelData.active ? CustomColors.primary : CustomColors.tertiary

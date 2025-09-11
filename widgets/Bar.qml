@@ -55,11 +55,7 @@ Item { id: root
           Layout.rightMargin: 16
           spacing: 16
 
-          CustomText {
-            SystemClock {
-              
-            }
-          }
+          TextClock {}
         }
       }
     }
