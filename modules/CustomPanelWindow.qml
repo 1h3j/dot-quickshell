@@ -5,6 +5,7 @@ import "."
 
 PanelWindow { id: root
   property real padding: 16
+  property bool transparent: false
 
   default property alias content: content.data
 
@@ -14,7 +15,7 @@ PanelWindow { id: root
   implicitHeight: contentWrapper.implicitHeight
 
   Rectangle { id: contentWrapper
-    color: CustomColors.background
+    color: root.transparent ? "transparent" : CustomColors.background
     radius: 16
 
     implicitWidth: Math.max(64, content.implicitWidth + padding * 2)

@@ -4,16 +4,12 @@ import QtQuick.Layouts
 
 import Quickshell
 import Quickshell.Io
-import Quickshell.Wayland
+// import Quickshell.Wayland
 
 import "widgets"
 import "modules"
 
 ShellRoot {
-  CustomColors {
-    id: colors
-  }
-
   FileView {
     id: todoJSON
     path: "/home/aidan/Documents/TODO.json"
@@ -59,15 +55,24 @@ ShellRoot {
     id: tasksModel
   }
 
-
-  CustomFloatingWindow {
+  CustomPanelWindow {
     padding: 32
-    resizable: true
-    colors: customColors
+    focusable: true
+    aboveWindows: false
+    // transparent: true
+
+    // anchors: {
+    //   top: true
+    //   left: true
+    // }
+    // resizable: true
 
     Item {
-      anchors.fill: parent
+      // anchors.fill: parent
       anchors.margins: 16
+
+      implicitWidth:  childrenRect.width
+      implicitHeight: childrenRect.height
 
       ColumnLayout {
         id: content

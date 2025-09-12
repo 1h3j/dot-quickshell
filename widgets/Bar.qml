@@ -8,10 +8,12 @@ import "../modules"
 import "bar"
 
 Item { id: root
+  readonly property int modulesSpacing: 26
+
   PanelWindow { id: windowRoot  
     color: "transparent"
     implicitHeight: 40
-    implicitWidth: 1080
+    implicitWidth: 1280
 
     margins {
       top: 8
@@ -36,12 +38,12 @@ Item { id: root
         RowLayout { id: modulesLeft
           Layout.alignment: Qt.AlignLeft
           Layout.leftMargin: 16
-          spacing: 16
+          spacing: modulesSpacing
         }
 
         RowLayout { id: modulesCenter
           Layout.alignment: Qt.AlignHCenter
-          spacing: 16
+          spacing: modulesSpacing
 
           WorkspaceList {
             implicitHeight: childrenRect.height
@@ -53,8 +55,10 @@ Item { id: root
         RowLayout { id: modulesRight
           Layout.alignment: Qt.AlignRight
           Layout.rightMargin: 16
-          spacing: 16
+          spacing: modulesSpacing
 
+          WifiIcon {}
+          BatteryIcon {}
           TextClock {}
         }
       }

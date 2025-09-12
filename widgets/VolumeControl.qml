@@ -140,7 +140,6 @@ Item { id: root
         
         Rectangle {
           color: "transparent"
-          radius: 8
 
           implicitWidth: childrenRect.width
           implicitHeight: childrenRect.height

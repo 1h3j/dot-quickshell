@@ -11,11 +11,11 @@ Item { id: root
       model: Hyprland.workspaces
       delegate: Rectangle {
         required property var modelData
-        implicitWidth: modelData.active ? 48 : 16
+        implicitWidth: modelData.active ? 32 : 8
         implicitHeight: 8
         radius: 8
 
-        color: modelData.active ? CustomColors.primary : CustomColors.tertiary
+        color: modelData.active ? CustomColors.primary : CustomColors.secondary
 
         Behavior on implicitWidth {
           NumberAnimation { duration: 200; easing.type: Easing.InOutQuad }
