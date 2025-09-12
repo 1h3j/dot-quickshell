@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="battery-charge-overlay.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#343434"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="14.433437"
+     inkscape:cx="4.4341481"
+     inkscape:cy="19.849741"
+     inkscape:window-width="1826"
+     inkscape:window-height="972"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#a0dfff"
+       empopacity="0.30196078"
+       color="#84d6ff"
+       opacity="0.14901961"
+       empspacing="4"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect15"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.97534864,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.97534864,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.97534864,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect14"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     id="path1"
+     style="opacity:1">
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#808080;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="M 15.369141,8.109375 C 14.88137,8.2719653 14.455155,8.6183858 14.210938,9.1074219 l -3.998047,7.9980471 a 1.0001,1.0001 0 0 0 0,0.002 c -0.4028385,0.809184 -0.174385,1.756105 0.376953,2.30664 0.551337,0.550536 1.498044,0.777064 2.30664,0.373047 l 2.63086,-1.314453 -1.316406,2.63086 c -0.489397,0.977591 -0.08354,2.195158 0.894531,2.683593 0.977591,0.489397 2.195159,0.08354 2.683593,-0.894531 l 3.998047,-7.998047 a 1.0001,1.0001 0 0 0 0,-0.002 c 0.402839,-0.809184 0.174385,-1.756105 -0.376953,-2.30664 -0.551337,-0.550536 -1.498044,-0.777064 -2.30664,-0.373047 l -2.628907,1.314453 1.314453,-2.63086 C 18.27846,9.9188932 17.872603,8.7013262 16.894531,8.2128906 16.405736,7.9681922 15.856912,7.9467847 15.369141,8.109375 Z m 4.626953,5.892578 -1.337891,2.679688 a 1.0001,1.0001 0 0 0 -1.339844,-1.339844 z m -6.652344,1.314453 a 1.0001,1.0001 0 0 0 1.339844,1.341797 l -2.679688,1.339844 z"
+       id="path2" />
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="m 16.447266,9.1074219 a 0.99962503,0.99962503 0 0 0 -1.341797,0.4472656 l -3.998047,7.9980465 a 0.99972499,0.99972499 0 0 0 1.341797,1.339844 l 5.314453,-2.65625 -2.658203,5.314453 a 0.99962503,0.99962503 0 0 0 0.447265,1.341797 0.99962503,0.99962503 0 0 0 1.341797,-0.447266 l 3.998047,-7.998046 a 0.99972499,0.99972499 0 0 0 -1.341797,-1.339844 l -5.3125,2.65625 2.65625,-5.314453 A 0.99962503,0.99962503 0 0 0 16.447266,9.1074219 Z"
+       id="path3" />
+  </g>
+</svg>
