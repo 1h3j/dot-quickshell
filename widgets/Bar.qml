@@ -1,5 +1,4 @@
 import Quickshell
-import Quickshell.Io
 
 import QtQuick
 import QtQuick.Layouts
@@ -38,12 +37,12 @@ Item { id: root
         RowLayout { id: modulesLeft
           Layout.alignment: Qt.AlignLeft
           Layout.leftMargin: 16
-          spacing: modulesSpacing
+          spacing: root.modulesSpacing
         }
 
         RowLayout { id: modulesCenter
           Layout.alignment: Qt.AlignHCenter
-          spacing: modulesSpacing
+          spacing: root.modulesSpacing
 
           WorkspaceList {
             implicitHeight: childrenRect.height
@@ -55,7 +54,7 @@ Item { id: root
         RowLayout { id: modulesRight
           Layout.alignment: Qt.AlignRight
           Layout.rightMargin: 16
-          spacing: modulesSpacing
+          spacing: root.modulesSpacing
 
           WifiIcon {}
           BatteryIcon {}
