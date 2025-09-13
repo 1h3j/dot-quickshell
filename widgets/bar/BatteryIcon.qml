@@ -11,9 +11,9 @@ Rectangle { id: root
   property int alertPercentage: 15
   property bool showPercentage: true
 
-  property bool isAlert: (UPower.displayDevice.percentage * 100 < root.alertPercentage)
-  property bool isLow: (UPower.displayDevice.percentage * 100 < root.lowPercentage)
-  property bool isCharging: (UPower.displayDevice.state == UPowerDeviceState.Charging)
+  readonly property bool isAlert: (UPower.displayDevice.percentage * 100 < root.alertPercentage)
+  readonly property bool isLow: (UPower.displayDevice.percentage * 100 < root.lowPercentage)
+  readonly property bool isCharging: (UPower.displayDevice.state == UPowerDeviceState.Charging)
 
   implicitWidth: childrenRect.width
   implicitHeight: childrenRect.height

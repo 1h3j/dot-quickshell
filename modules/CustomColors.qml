@@ -39,11 +39,11 @@ Singleton {
     }
   })
 
-  property var theme: themeConfig[themeConfig["selected_theme"]]
+  readonly property var theme: themeConfig[themeConfig["selected_theme"]]
 
-  property string primary: theme["primary"]
-  property string secondary: theme["secondary"]
-  property string tertiary: theme["tertiary"]
-  property string quaternary: theme["quaternary"]
-  property string background: theme["background"]
+  readonly property color primary: theme["primary"]
+  readonly property color secondary: theme["secondary"]
+  readonly property color tertiary: theme["tertiary"]
+  readonly property color quaternary: theme["quaternary"]
+  readonly property color background: theme["background"]
 }
