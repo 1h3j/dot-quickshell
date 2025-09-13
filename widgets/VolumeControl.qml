@@ -1,10 +1,5 @@
-
-// TODO: Refactoring and Cleanup
-
 import QtQuick
 import QtQuick.Layouts
-import QtQuick.Effects
-import QtQuick.VectorImage
 
 import Quickshell
 import Quickshell.Services.Pipewire
@@ -46,7 +41,7 @@ Item { id: root
   }
 
   Timer { id: decayTimer
-    interval: decayTime
+    interval: root.decayTime
     triggeredOnStart: false
     onTriggered: {
       endAnim.start()
@@ -75,8 +70,7 @@ Item { id: root
         from: -96
         to: 16
         duration: 300
-        easing.type: Easing.OutQuad
-      }
+        easing.type: Easing.OutQuad }
     }
 
     SequentialAnimation { id: endAnim
@@ -152,6 +146,7 @@ Item { id: root
           MouseArea {
             anchors.fill: parent
 
+
             onClicked: {
               Pipewire.defaultAudioSink.audio.muted = !Pipewire.defaultAudioSink.audio.muted
               decayTimer.restart()
@@ -169,6 +164,7 @@ Item { id: root
           CustomSlider { id: volumeSlider
             radius: 8
             sliderColor: Pipewire.defaultAudioSink.audio.muted ? CustomColors.quaternary : CustomColors.primary
+            containerGirth: 32
 
             CustomText {
               anchors.centerIn: parent

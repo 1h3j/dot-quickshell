@@ -16,7 +16,7 @@ Singleton {
 
     onLoaded: {
       var jsonContent = themeJSON.text()
-      themeConfig = JSON.parse(jsonContent)
+      root.themeConfig = JSON.parse(jsonContent)
     }
   }
 

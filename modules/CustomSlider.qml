@@ -46,11 +46,6 @@ Item { id: root
     implicitWidth: root.implicitWidth
     implicitHeight: root.implicitHeight
 
-    // border {
-    //   width: 0
-    //   color: CustomColors.primary
-    // }
-
     MouseArea {
       anchors.fill: parent
       drag.axis: Drag.XAxis
@@ -60,8 +55,8 @@ Item { id: root
       drag.maximumY: sliderContainer.implicitWidth
 
       function updateValue ( mouse ) {
-        root.value = mapValue(horizontal ? mouse.x : mouse.y, 0, containerLength, root.minValue, root.maxValue)
-        root.value = horizontal ? root.value : ( minValue + maxValue - root.value )
+        root.value = root.mapValue(root.horizontal ? mouse.x : mouse.y, 0, root.containerLength, root.minValue, root.maxValue)
+        root.value = root.horizontal ? root.value : ( root.minValue + root.maxValue - root.value )
         root.value = Math.min( root.maxValue, root.value )
         root.value = Math.max( root.minValue, root.value )
 
@@ -75,11 +70,11 @@ Item { id: root
 
     Rectangle {
       id: sliderValue
-      color: sliderColor
+      color: root.sliderColor
       radius: sliderContainer.radius
 
-      x: horizontal ? ( sliderLength - containerLength ) : 0
-      y: horizontal ? 0 : ( containerLength - sliderLength )
+      x: root.horizontal ? ( root.sliderLength - root.containerLength ) : 0
+      y: root.horizontal ? 0 : ( root.containerLength - root.sliderLength )
 
       implicitWidth: sliderContainer.implicitWidth
       implicitHeight: sliderContainer.implicitHeight

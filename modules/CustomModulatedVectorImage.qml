@@ -20,8 +20,8 @@ Item {
 
   VectorImage {
     id: vectorImage
-    width: imageWidth
-    height: imageHeight
+    width: root.imageWidth
+    height: root.imageHeight
     preferredRendererType: VectorImage.CurveRenderer
     source: root.path
   }
@@ -30,6 +30,6 @@ Item {
     anchors.fill: vectorImage
     source: vectorImage
     colorization: root.strength
-    colorizationColor: color
+    colorizationColor: root.color
   }
 }

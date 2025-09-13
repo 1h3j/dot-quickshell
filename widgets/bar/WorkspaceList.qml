@@ -1,5 +1,4 @@
 import QtQuick
-import Quickshell
 import Quickshell.Hyprland
 
 import "../../modules"
@@ -9,7 +8,8 @@ Item { id: root
     spacing: 8
     Repeater {
       model: Hyprland.workspaces
-      delegate: Rectangle {
+
+      delegate: Rectangle { id: repeatedButton
         required property var modelData
         implicitWidth: modelData.active ? 32 : 8
         implicitHeight: 8
@@ -28,7 +28,7 @@ Item { id: root
         MouseArea {
           anchors.fill: parent
           onReleased: {
-            modelData.activate()
+            repeatedButton.modelData.activate()
           }
         }
       }

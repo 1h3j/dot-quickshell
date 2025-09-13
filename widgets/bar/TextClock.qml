@@ -7,6 +7,6 @@ CustomText {
   text: Qt.formatDateTime(clock.date, "hh:mm A   ddd, MMM d")
 
   SystemClock { id: clock
-    precision: SystemClock.second
+    precision: SystemClock.Seconds
   }
 }

@@ -1,6 +1,4 @@
 import QtQuick
-import QtQuick.Layouts
-import Quickshell
 import "."
 
 Item {
@@ -25,7 +23,7 @@ Item {
     implicitHeight: buttonContent.implicitHeight + root.padding * 2
 
     color: root.flat ? CustomColors.quaternary : "transparent"
-    border.width: flat ? 0 : borderWidth
+    border.width: root.flat ? 0 : root.borderWidth
     border.color: CustomColors.primary
 
     states: [
