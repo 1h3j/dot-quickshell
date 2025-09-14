@@ -14,6 +14,7 @@ Rectangle { id: root
   readonly property bool isAlert: (UPower.displayDevice.percentage * 100 < root.alertPercentage)
   readonly property bool isLow: (UPower.displayDevice.percentage * 100 < root.lowPercentage)
   readonly property bool isCharging: (UPower.displayDevice.state == UPowerDeviceState.Charging)
+  readonly property bool isFull: (UPower.displayDevice.state == UPowerDeviceState.FullyCharged)
 
   implicitWidth: childrenRect.width
   implicitHeight: childrenRect.height
@@ -31,7 +32,7 @@ Rectangle { id: root
         path: `../icons/battery-${Math.floor(UPower.displayDevice.percentage * 10)}.svg`
         imageWidth: 40
         imageHeight: 40
-        color: !root.isCharging && root.isLow ? "red" : CustomColors.primary
+        color: !root.isCharging && root.isLow ? "f44" : (root.isFull ? "#2f4" : CustomColors.primary)
       }
 
       Loader {
@@ -58,7 +59,7 @@ Rectangle { id: root
       Component { id: batteryAlertOverlay
         CustomModulatedVectorImage {
           anchors.centerIn: parent
-          path: "../icons/battery-charge-alert.svg"
+          path: "../icons/battery-alert-overlay.svg"
           imageWidth: 40
           imageHeight: 40
           color: CustomColors.primary
