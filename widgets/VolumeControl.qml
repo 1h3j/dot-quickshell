@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 
 import Quickshell
+import Quickshell.Io
 import Quickshell.Services.Pipewire
 
 import "../modules"
@@ -11,32 +12,33 @@ Item { id: root
   property bool show: false
   property bool init: false
 
+  function showWindow() {
+    if ( !root.init ) {
+      root.init = true
+      return
+    }
+
+    decayTimer.restart()
+    if ( !root.show ) {
+      root.show = true
+      startAnim.start()
+    }
+  }
+
   PwObjectTracker {
-    objects: [ Pipewire.defaultAudioSink ] }
+    objects: [ Pipewire.defaultAudioSink ]
+  }
 
   Connections {
     target: Pipewire.defaultAudioSink?.audio
 
-    function showWindow() {
-      if ( !root.init ) {
-        root.init = true
-        return
-      }
-
-      decayTimer.restart()
-      if ( !root.show ) {
-        root.show = true
-        startAnim.start()
-      }
-    }
-
     function onVolumeChanged() {
       volumeSlider.value = Pipewire.defaultAudioSink.audio.volume * 100
-      showWindow()
+      root.showWindow()
     }
 
     function onMutedChanged() {
-      showWindow()
+      root.showWindow()
     }
   }
 
@@ -46,6 +48,13 @@ Item { id: root
     onTriggered: {
       endAnim.start()
     }
+  }
+
+  IpcHandler {
+    target: "volume"
+    enabled: true
+    
+    function popup(): void { root.showWindow(); }
   }
 
   PanelWindow { id: windowRoot
