@@ -32,7 +32,7 @@ Rectangle { id: root
         path: `../icons/battery-${Math.floor(UPower.displayDevice.percentage * 10)}.svg`
         imageWidth: 40
         imageHeight: 40
-        color: !root.isCharging && root.isLow ? "f44" : (root.isFull ? "#2f4" : CustomColors.primary)
+        color: !root.isCharging && root.isLow ? "#f44" : (root.isFull ? "#2f4" : CustomColors.primary)
       }
 
       Loader {
