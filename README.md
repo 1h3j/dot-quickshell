@@ -1,4 +1,4 @@
-<h1 align="center">dots-quickshell</h1>
+<h1 align="center">dot-quickshell</h1>
 <p align="center">Personal config files for my Shell</p>
 
 ## Requirements
@@ -12,5 +12,5 @@
 
 ```
 mv ~/.config/quickshell ~/.config/quickshell-old
-git clone https://github.com/1h3j/dots-quickshell.git ~/.config/quickshell
+git clone https://github.com/1h3j/dot-quickshell.git ~/.config/quickshell
 ```
