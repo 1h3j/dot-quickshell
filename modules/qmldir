@@ -1,0 +1,10 @@
+singleton CustomColors 1.0 CustomColors.qml
+singleton CustomFont 1.0 CustomFont.qml
+
+CircularProgressBar 1.0 CircularProgressBar.qml
+CustomText 1.0 CustomText.qml
+CustomButton 1.0 CustomButton.qml
+CustomModulatedVectorImage 1.0 CustomModulatedVectorImage.qml
+CustomFloatingWIndow 1.0 CustomFloatingWIndow.qml
+CustomPanelWindow 1.0 CustomPanelWindow.qml
+CustomSlider 1.0 CustomSlider.qml

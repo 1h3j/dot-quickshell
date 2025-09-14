@@ -18,8 +18,8 @@ PanelWindow { id: root
     color: root.transparent ? "transparent" : CustomColors.background
     radius: 16
 
-    implicitWidth: Math.max(64, content.implicitWidth + padding * 2)
-    implicitHeight: Math.max(64, content.implicitHeight + padding * 2)
+    implicitWidth: Math.max(64, content.implicitWidth + root.padding * 2)
+    implicitHeight: Math.max(64, content.implicitHeight + root.padding * 2)
 
     Rectangle { id: content
       color: "transparent"
