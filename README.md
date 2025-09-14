@@ -1,5 +1,5 @@
-<h1 align="left">dots-quickshell</h1>
-<p align="left">Personal config files for my Shell</p>
+<h1 align="center">dots-quickshell</h1>
+<p align="center">Personal config files for my Shell</p>
 
 ## Requirements
 
