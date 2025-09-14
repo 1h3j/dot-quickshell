@@ -1,5 +1,5 @@
-# dots-quickshell
-Config files for my personal shell
+<h1 align="left">dots-quickshell</h1>
+<p align="left">Personal config files for my Shell</p>
 
 ## Requirements
 
@@ -10,20 +10,7 @@ Config files for my personal shell
 
 ## How to Install
 
-0. Make sure that there is no pre-existing quickshell config directory
-
 ```
 mv ~/.config/quickshell ~/.config/quickshell-old
-```
-
-1. Clone repository to your quickshell config directory
-
-```
 git clone https://github.com/1h3j/dots-quickshell.git ~/.config/quickshell
-```
-
-2. Enjoy!
-
-```
-quickshell
 ```
