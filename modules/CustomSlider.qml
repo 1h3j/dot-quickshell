@@ -88,7 +88,7 @@ Item { id: root
       }
     }
   }
-
+  
   Rectangle {
     id: labelContent
     color: "transparent"

@@ -2,14 +2,16 @@
   "selected_theme": "dark",
   "available_themes": ["light", "dark", "pornhub"],
   "light": {
+    "opposite": "#FFFFFF",
     "primary": "#000000",
     "secondary": "#808080",
     "tertiary": "#80707070",
     "quaternary": "#40606060",
-    "background": "#CCFFFFFF"
+    "background": "#FFFFFFFF"
   }, 
 
   "pornhub": {
+    "opposite": "#000000",
     "primary": "#ffaa00",
     "secondary": "#404040",
     "tertiary": "#80707070",
@@ -18,10 +20,11 @@
   },
 
   "dark": {
+    "opposite": "#000000",
     "primary": "#FFFFFF",
     "secondary": "#808080",
     "tertiary": "#80707070",
     "quaternary": "#40606060",
-    "background": "#CC000000"
+    "background": "#FF000000"
   }
 }

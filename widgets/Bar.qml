@@ -7,7 +7,7 @@ import "../modules"
 import "bar"
 
 Item { id: root
-  readonly property int modulesSpacing: 26
+  readonly property int modulesSpacing: 4
 
   PanelWindow { id: windowRoot  
     color: "transparent"
@@ -38,17 +38,18 @@ Item { id: root
           Layout.alignment: Qt.AlignLeft
           Layout.leftMargin: 16
           spacing: root.modulesSpacing
-        }
-
-        RowLayout { id: modulesCenter
-          Layout.alignment: Qt.AlignHCenter
-          spacing: root.modulesSpacing
 
           WorkspaceList {
             implicitHeight: childrenRect.height
             implicitWidth: childrenRect.width
             Layout.alignment: Qt.AlignVCenter
           }
+        }
+
+        RowLayout { id: modulesCenter
+          Layout.alignment: Qt.AlignHCenter
+          spacing: root.modulesSpacing
+          TextClock {}
         }
 
         RowLayout { id: modulesRight
@@ -58,7 +59,6 @@ Item { id: root
 
           WifiIcon {}
           BatteryIcon {}
-          TextClock {}
         }
       }
     }

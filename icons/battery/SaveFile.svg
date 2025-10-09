@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="SaveFile.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#171717"
+     bordercolor="#ffffff"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#1e1e1e"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="8.5727981"
+     inkscape:cx="24.087818"
+     inkscape:cy="22.104802"
+     inkscape:window-width="1820"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3"
+     showguides="false"
+     showborder="false">
+    <inkscape:grid
+       id="grid4"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#ffffff"
+       empopacity="0.30196078"
+       color="#ffffff"
+       opacity="0.14901961"
+       empspacing="4"
+       enabled="true"
+       visible="false"
+       dotted="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Back"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.2;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect4"
+       width="26"
+       height="16"
+       x="3"
+       y="8"
+       ry="4"
+       inkscape:label="BatteryBase" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.5;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect5"
+       width="2"
+       height="8"
+       x="30"
+       y="12"
+       ry="1"
+       inkscape:label="BatteryHead" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Percentage"
+     style="display:inline">
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.97891;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect8"
+       width="22"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="Full" />
+    <path
+       id="rect10"
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.97891;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       inkscape:label="1"
+       d="M 6,10.265625 C 5.401339,10.61045 5,11.256787 5,12 v 8 c 0,0.743213 0.401339,1.38955 1,1.734375 z" />
+    <path
+       id="rect11"
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.97891;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       inkscape:label="2"
+       d="m 7,10 c -1.108,0 -2,0.892 -2,2 v 8 c 0,1.108 0.892,2 2,2 z" />
+    <path
+       id="rect16"
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:1.27021;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       inkscape:label="3"
+       d="m 7,10 c -1.108,0 -2,0.892 -2,2 v 8 c 0,1.108 0.892,2 2,2 0.3647875,0 0.7061621,-0.09638 1,-0.265625 V 10.265625 C 7.7061621,10.096376 7.3647875,10 7,10 Z" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:1.27022;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect19"
+       width="4"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="4" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:1.42015;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect20"
+       width="5"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="5" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:1.5557;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect21"
+       width="6"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="6" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:1.68035;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect22"
+       width="7"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="7" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:1.79637;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect23"
+       width="8"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="8" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:1.90534;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect24"
+       width="9"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="9" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.0084;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect25"
+       width="10"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="10" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.10643;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect26"
+       width="11"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="11" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.20009;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect27"
+       width="12"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="12" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.28993;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect28"
+       width="13"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="13" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.37637;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect29"
+       width="14"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="14" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.45978;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect30"
+       width="15"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="15" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.54045;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect31"
+       width="16"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="16" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.61864;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect32"
+       width="17"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="17" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.69456;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect33"
+       width="18"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="18" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.7684;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect34"
+       width="19"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="19" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.84032;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect35"
+       width="20"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="20" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.91046;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect36"
+       width="21"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="21" />
+    <rect
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:2.97895;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect37"
+       width="22"
+       height="12"
+       x="5"
+       y="10"
+       ry="2"
+       inkscape:label="22" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Overlays"
+     style="display:inline">
+    <path
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:5.65685;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5;paint-order:stroke fill markers"
+       d="M 16,6 8,17 h 10 l -2,9 8,-11 H 14 Z"
+       id="path37"
+       inkscape:label="Charging"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path38"
+       style="display:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5;paint-order:stroke fill markers"
+       d="m 16,6 c -4,0 -4,4 -4,4 l 3,10 c 0,0 0,1 1,1 1,0 1,-1 1,-1 l 3,-10 c 0,0 0,-4 -4,-4 z m 0,16 c -1.104569,0 -2,0.895431 -2,2 0,1.104569 0.895431,2 2,2 1.104569,0 2,-0.895431 2,-2 0,-1.104569 -0.895431,-2 -2,-2 z"
+       sodipodi:nodetypes="sccsccssssss"
+       inkscape:label="Alert" />
+  </g>
+</svg>

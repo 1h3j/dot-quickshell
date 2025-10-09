@@ -4,24 +4,16 @@ import Quickshell.Widgets
 
 import "."
 
-PanelWindow { id: root
+Item { id: root
   property real padding: 16
   property bool transparent: false
 
   default property alias content: content.data
 
-  color: "transparent"
-
-  implicitWidth: contentWrapper.highestWidth
-  implicitHeight: contentWrapper.highestHeight
+  implicitWidth: content.implicitWidth
+  implicitHeight: content.implicitWidth
 
   ClippingRectangle { id: contentWrapper
-    property var iwAbsolute: Math.max(64, content.implicitWidth + root.padding * 2)
-    property var ihAbsolute: Math.max(64, content.implicitHeight + root.padding * 2)
-
-    property var highestWidth: 0
-    property var highestHeight: 0
-
     onIwAbsoluteChanged: {
       highestWidth = Math.max(iwAbsolute, highestWidth)
     }
@@ -29,8 +21,6 @@ PanelWindow { id: root
     onIhAbsoluteChanged: {
       highestHeight = Math.max(ihAbsolute, highestHeight)
     }
-
-    anchors.centerIn: parent
 
     color: root.transparent ? "transparent" : CustomColors.background
 
@@ -41,8 +31,8 @@ PanelWindow { id: root
 
     radius: 16
 
-    implicitWidth: iwAbsolute
-    implicitHeight: ihAbsolute
+    implicitWidth: content.implicitWidth
+    implicitHeight: content.implicitHeight
 
     Behavior on implicitWidth { 
       NumberAnimation {

@@ -11,6 +11,8 @@ Rectangle { id: root
   property int alertPercentage: 15
   property bool showPercentage: true
 
+  readonly property real nValues: 23
+
   readonly property bool isAlert: (UPower.displayDevice.percentage * 100 < root.alertPercentage)
   readonly property bool isLow: (UPower.displayDevice.percentage * 100 < root.lowPercentage)
   readonly property bool isCharging: (UPower.displayDevice.state == UPowerDeviceState.Charging)
@@ -20,18 +22,14 @@ Rectangle { id: root
   implicitHeight: childrenRect.height
 
   RowLayout {
-    CustomText {
-      text: `${Math.floor(UPower.displayDevice.percentage * 100)}%`
-    }
-
     Item {
-      implicitHeight: 32
       implicitWidth: batteryIcon.imageWidth
+      implicitHeight: batteryIcon.imageHeight
       CustomModulatedVectorImage { id: batteryIcon
         anchors.centerIn: parent
-        path: `../icons/battery-${Math.floor(UPower.displayDevice.percentage * 10)}.svg`
-        imageWidth: 40
-        imageHeight: 40
+        path: `../icons/battery/value/${Math.floor(UPower.displayDevice.percentage * 22)}.svg`
+        imageWidth: 32
+        imageHeight: 32
         color: !root.isCharging && root.isLow ? "#f44" : (root.isFull ? "#2f4" : CustomColors.primary)
       }
 
@@ -49,9 +47,9 @@ Rectangle { id: root
       
       Component { id: batteryChargeOverlay
         CustomModulatedVectorImage { 
-          path: "../icons/battery-charge-overlay.svg"
-          imageWidth: 40
-          imageHeight: 40
+          path: "../icons/battery/overlays/charging.svg"
+          imageWidth: 32
+          imageHeight: 32
           color: CustomColors.primary
         }
       }
@@ -59,12 +57,16 @@ Rectangle { id: root
       Component { id: batteryAlertOverlay
         CustomModulatedVectorImage {
           anchors.centerIn: parent
-          path: "../icons/battery-alert-overlay.svg"
-          imageWidth: 40
-          imageHeight: 40
+          path: "../icons/battery/overlays/alert.svg"
+          imageWidth: 32
+          imageHeight: 32
           color: CustomColors.primary
         }
       }
+    }
+    CustomText {
+      text: `${Math.floor(UPower.displayDevice.percentage * 100)}%`
+      scalingFactor: 0.8
     }
   }
 }

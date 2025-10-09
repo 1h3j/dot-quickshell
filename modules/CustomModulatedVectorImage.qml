@@ -31,5 +31,6 @@ Item {
     source: vectorImage
     colorization: root.strength
     colorizationColor: root.color
+    autoPaddingEnabled: false
   }
 }

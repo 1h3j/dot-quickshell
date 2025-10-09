@@ -32,6 +32,7 @@ Item { id: root
   Connections {
     target: Pipewire.defaultAudioSink?.audio
 
+
     function onVolumeChanged() {
       volumeSlider.value = Pipewire.defaultAudioSink.audio.volume * 100
       root.showWindow()
@@ -55,6 +56,14 @@ Item { id: root
     enabled: true
     
     function popup(): void { root.showWindow(); }
+    function decrease(): void { 
+      root.showWindow(); 
+      Pipewire.defaultAudioSink.audio.volume -= 0.05;
+    }
+    function increase(): void { 
+      root.showWindow(); 
+      Pipewire.defaultAudioSink.audio.volume += 0.05;
+    }
   }
 
   PanelWindow { id: windowRoot

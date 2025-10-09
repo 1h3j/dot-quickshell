@@ -23,24 +23,27 @@ Singleton {
   property var themeConfig: ({
     "selected_theme": "light",
     "light": {
+      "opposite": "#FFFFFF",
       "primary": "#000000",
       "secondary": "#A0A0A0",
       "tertiary": "#80707070",
       "quaternary": "#40606060",
-      "background": "#CCFFFFFF",
+      "background": "#FFFFFFFF",
     }, 
 
     "dark": {
+      "opposite": "#000000",
       "primary": "#FFFFFF",
       "secondary": "#A0A0A0",
       "tertiary": "#80707070",
       "quaternary": "#40606060",
-      "background": "#CC000000",
+      "background": "#FF000000",
     }
   })
 
   readonly property var theme: themeConfig[themeConfig["selected_theme"]]
 
+  readonly property color opposite: theme["opposite"]
   readonly property color primary: theme["primary"]
   readonly property color secondary: theme["secondary"]
   readonly property color tertiary: theme["tertiary"]

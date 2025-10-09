@@ -1,2 +1,3 @@
 # Prevent telescope.nvim from opening svg files
 icons/*.svg
+icons/**/*.svg
