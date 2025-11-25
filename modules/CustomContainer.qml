@@ -10,18 +10,10 @@ Item { id: root
 
   default property alias content: content.data
 
-  implicitWidth: content.implicitWidth
-  implicitHeight: content.implicitWidth
+  implicitWidth: contentWrapper.implicitWidth
+  implicitHeight: contentWrapper.implicitHeight
 
   ClippingRectangle { id: contentWrapper
-    onIwAbsoluteChanged: {
-      highestWidth = Math.max(iwAbsolute, highestWidth)
-    }
-
-    onIhAbsoluteChanged: {
-      highestHeight = Math.max(ihAbsolute, highestHeight)
-    }
-
     color: root.transparent ? "transparent" : CustomColors.background
 
     border {
@@ -31,8 +23,8 @@ Item { id: root
 
     radius: 16
 
-    implicitWidth: content.implicitWidth
-    implicitHeight: content.implicitHeight
+    implicitWidth: Math.max(64, content.implicitWidth + root.padding * 2)
+    implicitHeight: Math.max(64, content.implicitHeight + root.padding * 2)
 
     Behavior on implicitWidth { 
       NumberAnimation {

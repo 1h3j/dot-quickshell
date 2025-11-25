@@ -8,3 +8,5 @@ CustomModulatedVectorImage 1.0 CustomModulatedVectorImage.qml
 CustomFloatingWindow 1.0 CustomFloatingWindow.qml
 CustomPanelWindow 1.0 CustomPanelWindow.qml
 CustomSlider 1.0 CustomSlider.qml
+CustomContainer 1.0 CustomContainer.qml
+CustomTextInput 1.0 CustomTextInput.qml

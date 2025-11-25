@@ -1,10 +1,13 @@
+
 import Quickshell
+import Quickshell.Io
 
 import QtQuick
 import QtQuick.Layouts
 
 import "../modules"
 import "bar"
+
 
 Item { id: root
   readonly property int modulesSpacing: 4
@@ -57,8 +60,18 @@ Item { id: root
           Layout.rightMargin: 16
           spacing: root.modulesSpacing
 
-          WifiIcon {}
-          BatteryIcon {}
+          SysTray {
+            window: windowRoot
+          }
+          // WifiIcon {}
+          NewBatteryIcon {
+            onIsChargingChanged: {
+              chargingNotification.exec()
+            }
+            Process { id: chargingNotification
+              command: ["notify-send", "AC Adapter Plugged In"]
+            }
+          }
         }
       }
     }

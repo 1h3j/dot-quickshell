@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <path
+       d="m 19,22.726103 c 0,-0.522917 0.507161,-1.224168 1.027677,-1.695542 C 21.268994,19.906439 21.99976,18.297264 22,16.583984 c 0,-3.313708 -2.686292,-6 -6,-6 -3.313708,0 -6,2.686292 -6,6 2.4e-4,1.713277 0.731003,3.322449 1.972316,4.446571 C 12.492835,21.501933 13,22.349639 13,23.053193 13,23.57611 12.463443,23.794138 11.861863,23.430755 9.4911053,21.998704 8.0000646,19.41424 8,16.583984 c 10e-8,-4.418278 3.581722,-7.9999998 8,-7.9999998 4.418278,0 8,3.5817218 8,7.9999998 -6.5e-5,2.830244 -1.491093,5.414699 -3.861833,6.846753 C 19.536572,23.794133 19,23.429657 19,22.726103 Z"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:1.61764;paint-order:stroke fill markers"
+       id="path3"
+       transform="matrix(1,0,0,-0.99999999,0,32.583984)" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:2.02205;paint-order:stroke fill markers"
+       id="rect3"
+       width="2"
+       height="12"
+       x="15"
+       y="6"
+       ry="1" />
+  </g>
+</svg>

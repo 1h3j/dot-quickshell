@@ -56,6 +56,11 @@ Item { id: root
     enabled: true
     
     function popup(): void { root.showWindow(); }
+    function toggleMute(): void { 
+      root.showWindow(); 
+      Pipewire.defaultAudioSink.audio.muted = !Pipewire.defaultAudioSink.audio.muted
+      decayTimer.restart()
+    }
     function decrease(): void { 
       root.showWindow(); 
       Pipewire.defaultAudioSink.audio.volume -= 0.05;

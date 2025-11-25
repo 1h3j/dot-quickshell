@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="32"
+   viewBox="0 0 48 32"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="save.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#252525"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="18.17143"
+     inkscape:cx="18.490564"
+     inkscape:cy="20.058961"
+     inkscape:window-width="1826"
+     inkscape:window-height="972"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false"
+     inkscape:lockguides="true">
+    <inkscape:grid
+       id="grid4"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#ffffff"
+       empopacity="0.30196078"
+       color="#ffffff"
+       opacity="0.14901961"
+       empspacing="4"
+       enabled="true"
+       visible="true"
+       dotted="true" />
+    <sodipodi:guide
+       position="15,24"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="12,8"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,2.6257754,0,1 @ F,0,1,1,0,2.6257754,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,2.6257754,0,1 @ F,0,1,1,0,2.6257754,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 10,7 C 6.676,7 4,9.676 4,13 v 6 c 0,3.324 2.676,6 6,6 h 28 c 3.324,0 6,-2.676 6,-6 V 13 C 44,9.676 41.324,7 38,7 Z m 0,1 h 28 c 2.77,0 5,2.23 5,5 v 6 c 0,2.77 -2.23,5 -5,5 H 10 C 7.23,24 5,21.77 5,19 V 13 C 5,10.23 7.23,8 10,8 Z"
+       style="display:none;fill:#ffffff;fill-opacity:0.5;stroke-width:0.884651"
+       id="path4" />
+    <path
+       id="rect4"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.66594"
+       d="M 10.749169,10 H 37.250831 C 39.327871,10 41,11.6725 41,13.75 v 4.5 C 41,20.3275 39.327871,22 37.250831,22 H 10.749169 C 8.6721293,22 7,20.3275 7,18.25 v -4.5 C 7,11.6725 8.6721293,10 10.749169,10 Z"
+       inkscape:export-filename="bar.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 47,16 a 2,2 0 0 0 -2,-2 v 4 a 2,2 0 0 0 2,-2 z"
+       style="display:none;fill:#ffffff;fill-opacity:0.5;stroke-width:0.816496"
+       id="path6" />
+    <g
+       id="path7"
+       style="display:none;opacity:1">
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill-opacity:0.75;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 26.259766,4.0488281 c -0.560006,0.093691 -1.099259,0.3626301 -1.445313,0.8125 L 18.015625,13.699219 C 16.428681,15.762245 18.022219,19 20.625,19 h 1.269531 l -2.628906,5.78125 c -0.469725,1.033394 0.06124,2.415573 0.910156,2.925781 0.848919,0.510209 2.317658,0.331381 3.009766,-0.568359 l 6.798828,-8.837891 C 31.571319,16.237755 29.977781,13 27.375,13 H 26.105469 L 28.734375,7.21875 C 29.2041,6.1853558 28.673137,4.803177 27.824219,4.2929687 27.399759,4.0378646 26.819771,3.9551369 26.259766,4.0488281 Z"
+         id="path1" />
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffffff;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="M 26.399036,6.0812526 19.600964,14.918747 A 1.2929357,1.2929357 63.784296 0 0 20.625775,17 H 25 l -3.913446,8.609582 a 0.30206272,0.30206272 31.006273 0 0 0.51441,0.309165 l 6.798072,-8.837494 A 1.2929357,1.2929357 63.784296 0 0 27.374225,15 H 23 l 3.913446,-8.6095821 a 0.30206272,0.30206272 31.006273 0 0 -0.51441,-0.3091653 z"
+         id="path2" />
+    </g>
+  </g>
+</svg>

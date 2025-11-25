@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.VectorImage
 import QtQuick.Layouts
 import Quickshell.Services.UPower
 
@@ -46,11 +47,11 @@ Rectangle { id: root
       }
       
       Component { id: batteryChargeOverlay
-        CustomModulatedVectorImage { 
-          path: "../icons/battery/overlays/charging.svg"
-          imageWidth: 32
-          imageHeight: 32
-          color: CustomColors.primary
+        VectorImage { 
+          source: "../icons/battery-new/charging.svg"
+          width: 32
+          height: 32
+          // color: Colors.white
         }
       }
 
